@@ -2,10 +2,304 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/cbe188b5fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>OnlyJack</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="nav">
+      <navbar id="navbar">
+        <h2>OnlyJack</h2>
+
+        <ul>
+          <li class="cool-link"><a href="#welcome-section">Home</a></li>
+          <li class="cool-link"><a href="#about">About Me</a></li>
+          <li class="cool-link"><a href="#projects">My Hobby</a></li>
+          <li class="cool-link"><a href="#contact">Contact Me</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+          <input type="checkbox" name="" id="" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </navbar>
+    </div>
+
+    <section id="welcome-section">
+      <img class="avatar" src="foto.png" width="200" alt="VArtz's Avatar" />
+      <h1>Hi, Saya Muhammad Zaki Fahrezi</h1>
+      <h2>Mahasiswa Teknik Informatika politeknik negeri Lhokseumawe</h2>
+      <button><a href="#about">About Me</a></button>
+    </section>
+
+    <div class="about">
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="abouts">
+          <div class="card-body">
+            <h3>Siapa Saya?</h3>
+            <p>
+              Halo! Saya Muhammad Zaki Fahrezi, seorang Mahasiswa Teknik
+              informatika yang bersemangat dalam membangun pengalaman digital
+              yang menarik dan fungsional. Saat ini, saya fokus pada
+              pengembangan front-end menggunakan HTML, CSS, dan JavaScript.
+              Selain itu, saya juga tertarik pada desain UI/UX untuk menciptakan
+              tampilan yang estetis dan ramah pengguna. Saya selalu ingin
+              belajar teknologi baru dan memperluas keterampilan saya di dunia
+              pemrograman. Di waktu luang, saya suka mengeksplorasi framework
+              baru, bermain game, dan berbagi ilmu dengan komunitas programmer.
+              Jika ingin tahu lebih banyak tentang saya atau proyek yang saya
+              buat, silakan kunjungi portofolio saya di
+              <a href="https://github.com/M-ZakiFahrezi" class="c-here"
+                >Disini.</a
+              >
+            </p>
+          </div>
+          <div class="card-body">
+            <h3>Kemampuan Saya?</h3>
+            <p>
+              Saya memiliki keterampilan dalam pengembangan web, mulai dari
+              membangun tampilan antarmuka yang menarik menggunakan HTML, CSS,
+              dan JavaScript hingga mengembangkan fitur interaktif dengan React.
+              Selain itu, saya juga memahami dasar-dasar back-end menggunakan
+              Node.js dan database seperti MySQL. Saya juga senang berbagi ilmu
+              dengan komunitas pemula yang ingin belajar pemrograman. Saya
+              sering membuat tutorial, artikel, dan konten edukatif yang
+              membantu orang lain memahami konsep koding dengan cara yang lebih
+              sederhana.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="project">
+      <section id="projects">
+        <h2>My Hobby</h2>
+
+        <div class="project-grid">
+          <div class="project-tile">
+            <a
+              href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+              ><img src="sleeping.png" alt=""
+            /></a>
+            <div class="card-body">
+              <h3>Tidur</h3>
+              <p>
+                Tidur adalah cara terbaik bagi saya untuk mengisi ulang energi
+                setelah hari yang panjang. Dengan tidur yang cukup, saya bisa
+                lebih fokus, produktif, dan siap menghadapi tantangan baru.
+                Selain itu, tidur juga membantu menjaga kesehatan fisik dan
+                mental saya.
+              </p>
+              <button>
+                <a
+                  href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+                  >Detail Kegiatan »</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="project-tile">
+            <a
+              href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+              ><img src="coding.png" alt=""
+            /></a>
+            <div class="card-body">
+              <h3>Ngoding</h3>
+              <p>
+                Ngoding adalah salah satu hobi yang paling saya nikmati karena
+                saya bisa menciptakan sesuatu dari nol. Saya suka mengeksplorasi
+                bahasa pemrograman, membangun proyek kecil, dan mencari solusi
+                untuk berbagai masalah. Setiap baris kode yang saya tulis selalu
+                memberikan tantangan dan kepuasan tersendiri.
+              </p>
+              <button>
+                <a
+                  href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+                  >Detail Kegiatan »</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="project-tile">
+            <a
+              href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+              ><img src="netflix.png" alt="Product Survey Form"
+            /></a>
+            <div class="card-body">
+              <h3>Nonton Film</h3>
+              <p>
+                Menonton film adalah cara saya untuk melepas penat dan
+                mendapatkan inspirasi. Saya suka berbagai genre, mulai dari
+                aksi, petualangan, hingga fiksi ilmiah. Selain menghibur, film
+                juga sering memberikan perspektif baru dan cerita yang menarik
+                untuk dipelajari.
+              </p>
+              <button>
+                <a
+                  href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+                  >Detail Kegiatan »</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="project-tile">
+            <a
+              href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+              ><img
+                src="game-controller.png"
+                alt="Python Technical Document Page"
+            /></a>
+            <div class="card-body">
+              <h3>Gaming</h3>
+              <p>
+                Bermain game adalah aktivitas yang menyenangkan dan juga melatih
+                keterampilan berpikir strategis. Saya menikmati berbagai jenis
+                game, baik yang santai maupun yang kompetitif. Selain sebagai
+                hiburan, gaming juga membantu saya terhubung dengan teman-teman
+                dan komunitas yang memiliki minat yang sama.
+              </p>
+              <button>
+                <a
+                  href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+                  >Detail Kegiatan »</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="project-tile">
+            <a
+              href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+              ><img src="football.png" alt="My Design"
+            /></a>
+            <div class="card-body">
+              <h3>Olahraga</h3>
+              <p>
+                Olahraga menjadi cara saya menjaga kesehatan dan tetap bugar.
+                Saya menyukai aktivitas fisik seperti jogging, bersepeda, atau
+                sekadar stretching untuk menyegarkan tubuh. Selain baik untuk
+                kesehatan, olahraga juga membantu saya merasa lebih segar dan
+                bersemangat setiap hari.
+              </p>
+              <button>
+                <a
+                  href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+                  >Detail Kegiatan »</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="show">
+          <button class="showall">
+            <a
+              href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+              target="_blank"
+              >Show All <i class="fas fa-angle-right"></i
+            ></a>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <section id="contact">
+      <h2>Let's work together ...</h2>
+      <p>
+        The location of destiny is at the maximum limit of prayer and effort
+      </p>
+      <div class="social-media">
+        <a href="https://www.tiktok.com/@c.classsy" target="_blank"
+          ><i class="fab fa-tiktok"></i> Tiktok</a
+        >
+        <a
+          href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+          target="_blank"
+          ><i class="fab fa-instagram"></i> Instagram</a
+        >
+        <a href="https://wa.me/082175411361" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/M-ZakiFahrezi"
+          target="_blank"
+          ><i class="fab fa-github"></i> Github</a
+        >
+        <a href="https://zakyfahrezi53@gmail.com"
+          ><i class="fas fa-envelope"></i> Email</a
+        >
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>
+        © 2024, Created <i class="fas fa-heart"></i> by <span>OnlyJack </span>
+        <a
+          href="https://www.instagram.com/zkyy.frezy?igsh=MXB3N21zbm44ZjdwNw=="
+          class="social-icon"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.tiktok.com/@c.classsy" class="social-icon"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+        <a href="https://github.com/M-ZakiFahrezi" class="social-icon"
+          ><i class="fab fa-github"></i
+        ></a>
+      </p>
+    </div>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        let header = document.querySelector(".nav");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      const MenuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("navbar ul");
+
+      MenuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("a").on("click", function (event) {
+          if (this.hash !== "") {
+            nav.classList.remove("slide");
+            $(".menu-toggle input").prop("checked", false);
+            event.preventDefault();
+            var hash = this.hash;
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      });
+    </script>
   </body>
 </html>
